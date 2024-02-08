@@ -11,6 +11,7 @@ export default {
                 light_blue: "hsl(233, 100%, 69%)",
                 dark_grayish_blue: "hsl(210, 10%, 33%)",
                 grayish_blue: "hsl(201, 11%, 66%)",
+                light_gray: "rgba(245,246,248,255)",
             },
         },
     },

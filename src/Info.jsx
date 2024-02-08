@@ -13,7 +13,7 @@ import vectorGraphics from "/images/logo-vector-graphics.png";
 
 function Info() {
     return (
-        <div className="flex flex-col items-center text-center gap-20 md:gap-10">
+        <div className="flex flex-col items-center text-center gap-20 md:gap-30 my-20">
             <div className="flex flex-col gap-10 px-10 md:px-0">
                 <h2 className="font-bold text-3xl">
                     Keep track of your snippets
@@ -109,7 +109,32 @@ function Info() {
                 </div>
             </div>
 
-            <div></div>
+            <div className="flex flex-col md:flex-row justify-center items-center gap-20 md:gap-40">
+                <img src={google} className="w-40" />
+                <img src={ibm} className="w-40" />
+                <img src={microsoft} className="w-40" />
+                <img src={hp} className="w-40" />
+                <img src={vectorGraphics} className="w-40" />
+            </div>
+
+            <div className="flex flex-col items-center text-center gap-10 px-10">
+                <h2 className="font-bold text-3xl">
+                    Clipboard for iOS and Mac OS
+                </h2>
+                <p className="text-grayish_blue">
+                    Available for free on the App Store. Download for Mac or
+                    iOS, sync with iCloud and you’re ready to start adding to
+                    your clipboard.
+                </p>
+                <div className="flex flex-col md:flex-row gap-10">
+                    <button className="bg-strong_cyan px-20 md:px-10 py-3 rounded-full text-white font-bold shadow-lg shadow-strong_cyan hover:bg-[#5cccba] transition">
+                        Download for iOS
+                    </button>
+                    <button className="bg-light_blue px-20 md:px-10 py-3 rounded-full text-white font-bold shadow-lg shadow-light_blue hover:bg-[#8797ff] transition">
+                        Download for Mac
+                    </button>
+                </div>
+            </div>
         </div>
     );
 }
