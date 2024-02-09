@@ -14,4 +14,4 @@ This is a solution to the [Clipboard landing page challenge on Frontend Mentor](
 ### Built With
 
 - Tailwind CSS
-- React JS
+- React JS | Vite
