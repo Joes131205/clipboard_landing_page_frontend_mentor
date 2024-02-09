@@ -65,7 +65,7 @@ function Footer() {
                     href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
                     target="_blank"
                 >
-                    <img src={facebook} className="Facebook Logo" />
+                    <img src={facebook} alt="Facebook Logo" />
                 </a>
                 <a
                     href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
