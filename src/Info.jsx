@@ -28,7 +28,11 @@ function Info() {
 
             <div className="flex flex-col md:flex-row gap-10 md:gap-32 md:-translate-x-64 px-10 md:px-0">
                 <div className="flex flex-col items-center justify-center">
-                    <img src={imageComputer} className="w-[30rem] md:w-auto" />
+                    <img
+                        src={imageComputer}
+                        className="w-[30rem] md:w-auto"
+                        alt="Computer"
+                    />
                 </div>
                 <div className="flex flex-col gap-10 md:gap-20 justify-center text-center md:text-left">
                     <div className="flex flex-col gap-5">
@@ -62,7 +66,7 @@ function Info() {
                     Whether you’re on the go, or at your computer, you can
                     access all your Clipboard snippets in a few simple clicks.
                 </p>
-                <img src={imageDevices} />
+                <img src={imageDevices} alt="2 Devices Image" />
             </div>
 
             <div className="flex flex-col items-center text-center gap-20 px-10 md:px-0">
@@ -76,7 +80,11 @@ function Info() {
                 </div>
                 <div className="flex flex-col md:flex-row items-center justify-center gap-20">
                     <div className="flex flex-col gap-10 items-center justify-center text-center">
-                        <img src={blacklist} className="w-14" />
+                        <img
+                            src={blacklist}
+                            className="w-14"
+                            alt="Blacklist Icon"
+                        />
                         <h4 className="font-bold text-2xl">
                             Create blacklists
                         </h4>
@@ -87,7 +95,7 @@ function Info() {
                         </p>
                     </div>
                     <div className="flex flex-col gap-10 items-center justify-center text-center">
-                        <img src={text} className="w-14" />
+                        <img src={text} className="w-14" alt="Text Icon" />
                         <h4 className="font-bold text-2xl">
                             Plain text snippets
                         </h4>
@@ -98,7 +106,11 @@ function Info() {
                         </p>
                     </div>
                     <div className="flex flex-col gap-10 items-center justify-center text-center">
-                        <img src={preview} className="w-14" />
+                        <img
+                            src={preview}
+                            className="w-14"
+                            alt="Preview Icon"
+                        />
                         <h4 className="font-bold text-2xl">Sneak preview</h4>
                         <p className="text-grayish_blue">
                             Quick preview of all snippets on your Clipboard for
@@ -110,11 +122,19 @@ function Info() {
             </div>
 
             <div className="flex flex-col md:flex-row justify-center items-center gap-20 md:gap-40">
-                <img src={google} className="w-40" />
-                <img src={ibm} className="w-40" />
-                <img src={microsoft} className="w-40" />
-                <img src={hp} className="w-40" />
-                <img src={vectorGraphics} className="w-40" />
+                <img src={google} className="w-40" alt="Google Icon" />
+                <img src={ibm} className="w-40" alt="IBM Logo" />
+                <img src={microsoft} className="w-40" alt="Microsoft Logo" />
+                <img
+                    src={hp}
+                    className="w-40"
+                    alt="Hewlett Packard Enterprise Logo"
+                />
+                <img
+                    src={vectorGraphics}
+                    className="w-40"
+                    alt="Vector Graphics Logo"
+                />
             </div>
 
             <div className="flex flex-col items-center text-center gap-10 px-10">
